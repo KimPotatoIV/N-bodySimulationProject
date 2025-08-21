@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv0dcnvemmg6x"]
+
+[ext_resource type="PackedScene" uid="uid://be00f5h1abqly" path="res://scenes/spawner/spawner.tscn" id="1_hyk8p"]
+
+[node name="Main" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
+
+[node name="Spawner" parent="." instance=ExtResource("1_hyk8p")]
